@@ -1,5 +1,5 @@
 /******************************************************************
- * Um Projeto bem simples, seguindo a idéia dos anteriores. 
+ * Um Projeto bem simples, seguindo a ideia dos anteriores. 
  * com o push button nós selecionamos a cor, e com a cor desejada
  * selecionada podemos mudar sua intensidade tanto do vermelho, 
  * verde e azul. Assim conseguimos qualquer cor da tabela RGB
@@ -50,6 +50,6 @@ void loop() {
       break;
   }
   
-  Serial.println(contador);
+  Serial.println(intensidade);
 
 } 
